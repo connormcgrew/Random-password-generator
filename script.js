@@ -38,6 +38,15 @@ for (var i = 0; i < passwordLength; i++) {
 return password;
 }
 
+var generateBtn = document.querySelector("#generate");
+var passwordTextarea = document.querySelector("#password");
+
+
+generateBtn.addEventListener("click", function() {
+ var password = generatePassword();
+ passwordTextarea.value = password;
+});
+
 // // Assignment Code
 // var generateBtn = document.querySelector("#generate");
 
