@@ -6,6 +6,16 @@ function generatePassword() {
   }
 } 
 
+var upperCase = confirm("Click OK to confirm including uppercase characters");
+ var lowerCase = confirm("Click OK to confirm including lowercase characters");
+ var numbers = confirm("Click OK to confirm including numeric characters");
+ var specialCharacters = confirm("Click OK to confirm including special characters");
+ if (!upperCase && !lowerCase && !numbers && !specialCharacters) {
+   alert("You must choose at least one character type");
+   return;
+ }
+
+
 // // Assignment Code
 // var generateBtn = document.querySelector("#generate");
 
