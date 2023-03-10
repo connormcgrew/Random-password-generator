@@ -14,7 +14,12 @@ var upperCase = confirm("Click OK to confirm including uppercase characters");
    alert("You must choose at least one character type");
    return;
  }
-
+ var password = "";
+ var characterTypes = [];
+ var upperCaseSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+ var lowerCaseSet = "abcdefghijklmnopqrstuvwxyz";
+ var numbersSet = "0123456789";
+ var specialCharactersSet = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
 
 // // Assignment Code
 // var generateBtn = document.querySelector("#generate");
