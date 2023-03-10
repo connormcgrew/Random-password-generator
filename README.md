@@ -11,7 +11,7 @@
 
   ## Description <a name="description"></a>
   This is a random password generator. Click the "Generate Password" button and it will ask you some questions about the password you want to generate. Once you answer the questions it will generate a random password for you.
-  ![app](./02-Challenge/Assets/deployed_application.png)
+  ![app](./develop/Assets/deployed_application.png)
 
 ## Installation <a name="installation"></a>
 N/A
