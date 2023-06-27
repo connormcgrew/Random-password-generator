@@ -1,4 +1,4 @@
-# Text Editor PWA
+# Random Password Generator PWA
   [![MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://lbesson.mit-license.org/)
   ## Table of Contents
   * [Description](#description)
